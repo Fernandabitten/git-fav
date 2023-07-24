@@ -48,8 +48,20 @@ export class FavoritesView extends Favorites {
   }
   onadd() {
     const addButton = this.root.querySelector(".search button");
+    const inputElement = this.root.querySelector(".search input");
+  
+    // Adicionar event listener para o evento "keypress" no input
+    inputElement.addEventListener("keypress", (event) => {
+      if (event.key === "Enter") {
+        const { value } = inputElement;
+        this.add(value);
+        document.getElementById("favorite").value = "";
+      }
+    });
+  
+    // Adicionar event listener para o clique no botão
     addButton.onclick = () => {
-      const { value } = this.root.querySelector(".search input");
+      const { value } = inputElement;
       this.add(value);
       document.getElementById("favorite").value = "";
     };
