@@ -14,7 +14,7 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/<your-username>/git-fav.git
+   git clone https://github.com/Fernandabitten/git-fav.git
 
  2. Open the index.html file: Open the index.html file in your browser to start the application.
 
