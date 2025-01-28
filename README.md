@@ -16,7 +16,7 @@
    ```bash
    git clone https://github.com/Fernandabitten/git-fav.git
 
- 2. Open the index.html file: Open the index.html file in your browser to start the application.
+ 2. Open the application: Open the index.html file in your browser or use an extension like Live Server to view the app locally.
 
 ## Technologies Used
 
@@ -46,8 +46,8 @@ Contributions are welcome! If you find any bugs or have suggestions for improvem
 
 - **Additional features:** Implement the ability to filter favorites by name, login, or number of followers.
 - **Testing:** Add unit tests to ensure code quality.
- 
- Click <a href="https://fernandabitten.github.io/git-fav/">here </a>  to access <br/>
+
+ [👉 Access Git Fav here!!](https://fernandabitten.github.io/git-fav/)
 
 ![git-fav](https://user-images.githubusercontent.com/77073426/174455744-7f39025a-dd2c-4d52-8cdb-6424a058b188.gif)
 
